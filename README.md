@@ -10,7 +10,7 @@ sudo apt-get install libbluetooth-dev python-bluetooth
 
 If you want to install the library as a module, do:
 ```
-python setup.py install
+sudo python setup.py install
 ```
 from the root folder of the repository.
 
