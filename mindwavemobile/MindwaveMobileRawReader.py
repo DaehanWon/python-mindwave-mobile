@@ -27,7 +27,7 @@ class MindwaveMobileRawReader:
     def _findMindwaveMobileAddress(self):
         nearby_devices = bluetooth.discover_devices(lookup_names = True)
         for address, name in nearby_devices:
-            if (name == "MindWave Mobile"):
+            if (name == "HR-S0C404"):
                 return address
         return None
         
